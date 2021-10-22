@@ -6,7 +6,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question("Enter the seats as arrays in json notation? ", (answer) => {
+rl.question("Please enter the seats as arrays : ", (answer) => {
   var array = JSON.parse(answer);
   var rowSize = Math.max.apply(
     Math,
